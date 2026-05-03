@@ -15,4 +15,4 @@ Cara Menjalankan:
 Catatan Teknis:
 - Program ini menggunakan Logika Fuzzy dengan metode Sugeno.
 - Fuzzifikasi menggunakan fungsi keanggotaan Trapesium.
-- Proses Defuzzifikasi dilakukan secara manual tanpa library fuzzy khusus sesuai instruksi tugas.
+- Proses Defuzzifikasi dilakukan secara manual tanpa library fuzzy khusus.
