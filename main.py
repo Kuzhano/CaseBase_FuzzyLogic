@@ -90,14 +90,14 @@ def main():
                 'id Pelanggan': id_restoran,
                 'Pelayanan': servis,
                 'harga': harga,
-                'Skor': skor # Nama kolom output hasil defuzzifikasi
+                'Skor Kelayakan': skor # Nama kolom output hasil defuzzifikasi
             })
             
         # Konversi hasil ke DataFrame
         res_df = pd.DataFrame(results)
         
         # Mengambil 5 terbaik berdasarkan Skor Kelayakan
-        top_5 = res_df.sort_values(by='Skor', ascending=False).head(5)
+        top_5 = res_df.sort_values(by='Skor Kelayakan', ascending=False).head(5)
         
         # Output Terminal sesuai spesifikasi tugas
         print("\n" + "="*50)
